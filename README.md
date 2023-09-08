@@ -12,5 +12,4 @@
 
 ## 已适配平台
 
-- [Choreo](https://console.choreo.dev/)
 - [Doprax](https://www.doprax.com)
