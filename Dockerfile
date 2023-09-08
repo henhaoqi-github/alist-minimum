@@ -4,7 +4,6 @@ WORKDIR /app/
 # 设置用户
 RUN addgroup --gid 10001 choreo &&\
     adduser --disabled-password  --no-create-home --uid 10001 --ingroup choreo choreouser &&\
-    usermod -aG sudo choreouser &&\
 # 复制 zip 文件到容器中
 COPY Dockerfile alist.zip ./
 # 安装 unzip 命令
