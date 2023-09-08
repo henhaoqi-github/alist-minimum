@@ -25,6 +25,7 @@ RUN apk add --no-cache bash ca-certificates su-exec tzdata; \
     chmod +x /entrypoint.sh
 ENV PUID=0 PGID=0 UMASK=022
 EXPOSE 5244 5245
-CMD [ "/entrypoint.sh" ]
 
 USER 10001
+
+ENTRYPOINT [ "/entrypoint.sh" ]
