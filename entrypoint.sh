@@ -2,7 +2,7 @@
 
 # 设置您希望的用户和组
 USER=myappuser
-GROUP=10001
+GROUP=myapp
 
 chown -R $USER:$GROUP /myapp/alist/
 
@@ -10,4 +10,4 @@ chown -R $USER:$GROUP /myapp/alist/
 umask 0022
 
 # 运行命令
-./alist server --no-prefix
+exec su-exec $USER:$GROUP ./alist server --no-prefix
