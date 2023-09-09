@@ -17,8 +17,8 @@ RUN apk add --no-cache bash curl gcc git go musl-dev; \
 
 FROM alpine:3.18
 LABEL MAINTAINER="i@nn.ci"
-VOLUME /var/tmp/alist/data/
-WORKDIR /var/tmp/alist/
+VOLUME /home/alist/data/
+WORKDIR /home/alist/
 COPY --from=builder /app/bin/alist ./
 COPY entrypoint.sh /entrypoint.sh
 RUN apk add --no-cache bash ca-certificates su-exec tzdata; \
