@@ -1,13 +1,12 @@
 #!/bin/bash
 
 # 设置您希望的用户和组
-USER=myappuser
-GROUP=myapp
+USER=10004
 
-chown -R $USER:$GROUP /myapp/alist/
+chown -R $USER /myapp/alist/
 
 # 设置适当的 umask 值
 umask 0022
 
-# 运行命令
-exec su-exec $USER:$GROUP ./alist server --no-prefix
+# 使用 exec 运行命令
+exec su -c "./alist server --no-prefix" $USER
