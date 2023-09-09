@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # 运行命令
-./alist server --no-prefix
+/myapp/alist/alist server --no-prefix
