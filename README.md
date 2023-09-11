@@ -11,4 +11,5 @@
 
 ## 已适配平台
 
+- [Teamcode](https://www.teamcode.com/) （[Teamcode分支](https://github.com/henhaoqi-github/alist-minimum/tree/teamcode)）
 - [Doprax](https://www.doprax.com)
