@@ -9,7 +9,7 @@
 - 新Dockerfile适配Teamcode平台（[Teamcode分支](https://github.com/henhaoqi-github/alist-minimum/tree/teamcode)）
 
 ### 20230908
-- 使用非Root用户运行
+- 使用非Root用户运行（Choreo）
 - 上传项目文件
 
 ## 已适配平台
