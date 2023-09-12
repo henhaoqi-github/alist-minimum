@@ -5,6 +5,9 @@
 
 以下为项目的更新及变更。
 
+### 20230912
+- 增加Layerfile文件适配Webapp平台
+
 ### 20230911
 - 新Dockerfile适配Teamcode平台（[Teamcode分支](https://github.com/henhaoqi-github/alist-minimum/tree/teamcode)）
 
@@ -14,5 +17,6 @@
 
 ## 已适配平台
 
+- [Webapp](https://webapp.io/)
 - [Teamcode](https://www.teamcode.com/) （[Teamcode分支](https://github.com/henhaoqi-github/alist-minimum/tree/teamcode)）
 - [Doprax](https://www.doprax.com)
